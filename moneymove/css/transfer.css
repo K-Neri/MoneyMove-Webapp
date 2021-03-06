@@ -1,0 +1,59 @@
+*{
+	box-sizing: border-box;
+}
+html{
+	height: 100%;
+	background-color: #eee;
+}
+body{
+	background-color: #eee;
+	height: 100%;
+}
+.header {
+	height: 80px;
+	padding: 60px 0px;
+	color: black;
+	text-align: center;
+	font-family: georgian;
+}
+
+.maincontent{
+	margin-top:0px;
+	height: 100%;
+	background-color: #eee;
+}
+.header .select{
+	margin-top: 14px;
+}
+
+.maincontent #guide{
+	text-align: center;
+	margin: 40px 0px;
+}
+.maincontent form input{
+	
+	cursor: pointer;
+}
+.maincontent form{
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.maincontent table{
+	margin-bottom: 20px;
+}
+ #search{
+	margin: 20px 0px;
+	text-align: center;
+}
+.additionalinfo{
+	display: none;
+	background-color: green;
+}
+.R_maincontent{
+	padding-bottom: 150px;
+	
+
+}
+
+
+

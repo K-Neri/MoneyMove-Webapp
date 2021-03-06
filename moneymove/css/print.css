@@ -1,0 +1,31 @@
+ 
+ table .center{
+ 	text-align: center;
+ 	border: 1px solid black;
+ 	background-color: #eee;
+ 	
+ }
+ table{
+ 	padding: 5px;
+ 	font-family: georgian;
+ 	
+
+ }
+ 
+ .subcenter{
+ 	text-align: center;
+ }
+.companyname {
+ 	font-family: georgian;
+ 	background-color: #003366;
+ 	color: white;
+ 	/*line-height: 40px;*/
+ 	padding-left: 20px;
+ }
+ .customer, .agent{
+ 	border:1px solid black;
+ 	padding: 5px;
+ 	font-family: georgian;
+ 	font-size: 12px;
+ }
+ 

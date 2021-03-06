@@ -1,0 +1,18 @@
+/*STYLING THE INDEX PAGE */
+*{
+	box-sizing:border-box;
+}
+
+.maincontent{
+	padding: 50px 0px;
+	height: 100%;
+}
+.maincontent .row{
+	padding: 14px 0px;
+}
+.maincontent .systitle{
+	color: orange;
+}
+.systitle, .paragraph1, .paragraph2{
+	display: none;
+}

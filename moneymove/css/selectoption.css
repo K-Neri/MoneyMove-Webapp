@@ -1,0 +1,31 @@
+
+.maincontent .title{
+	text-align: center;
+	font-family: georgian;
+	text-transform: uppercase;
+}
+.maincontent .rows{
+	padding-top: 0px auto;
+	text-align: center;
+	font-family: georgian;
+}
+.maincontent .rows a{
+	line-height: 300%;
+	border-radius: 40px;
+	font-size: 25px;
+	transition: 0.7s;
+}
+.maincontent .rows a:hover{
+	background-color: black;
+	transition: 0.5s;
+	font-size: 23px;
+}
+
+.maincontent{
+	height: 460px;
+	text-align: center;
+	font-family: georgian;
+	background-color: #eee;
+}
+ 
+

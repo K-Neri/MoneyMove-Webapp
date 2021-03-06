@@ -1,0 +1,24 @@
+/*
+		.left-side{
+			padding: 5px 10px;
+			background-color: #003366;
+			color: white;
+			/*overflow: auto;*/
+			height: 100%;
+		}
+		.left-side ul{
+			list-style: none;
+			margin: 0;
+			padding: 0px;
+		}
+		.left-side ul li{
+			padding: 7px 10px;
+		}
+		.left-side ul li a{
+			display: block;
+			text-decoration: none;
+			color: white;
+		}
+		.left-side ul li a:hover{
+			color: gray;
+		}*/

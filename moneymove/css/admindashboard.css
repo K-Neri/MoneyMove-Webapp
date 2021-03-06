@@ -1,0 +1,163 @@
+
+html,body{
+	height: 100%;
+}
+
+.maincontent{
+	height: 100%;
+}
+
+/****************************************************************************************************/
+.top-header{
+	background-color: #003366;
+	color: white;
+	text-align: center;
+	font-family: georgian;
+	height: 40px;
+	padding: 0px 30px;
+}
+
+/***********************************************************************************************************************************/
+}
+		.title{
+			text-transform: uppercase;
+			font-weight: bold;
+			/*padding: 7px 10px;*/
+		}
+
+
+		
+/*************************************************************************************************************************/
+
+/*CREATION OF USER ACCOUNTS*/
+
+#admincreate form{
+	margin-bottom: 30px;
+}
+
+#admincreate h1{
+	text-align: center;
+	text-transform: uppercase;
+	padding: 30px 0px 20px;
+}
+#admincreate h3{
+	text-align: center;
+}
+#admincreate button{
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	font-weight: bold;
+}
+
+
+/********************************************************************************************************************************************/
+/*NEW STYLING*/
+*{
+	box-sizing: border-box;
+ }
+
+.left-layout
+{
+	background-color: #003366;
+	width: 17%;
+	float: left;
+	height: 100%;
+	position: fixed;
+	border-right: 2px solid darkgrey;
+}
+.left-layout ul
+{
+	list-style: none;
+	padding: 0px;
+	height: 100%;
+	overflow: hidden;
+}
+.left-layout ul:hover{
+	overflow: scroll;
+}
+
+.left-layout ul li a, .left-layout .title
+{
+	color: #eee;
+	text-decoration: none;
+	padding:12px 20px;
+	display: block;
+	color:#eee;
+	
+}
+.left-layout ul li a:hover
+{
+	background-color: white;
+	color: #003366;
+}
+.right-layout{
+	float: right;
+	width: 83%;
+	/*background-color: yellow;*/
+	height: 100%;
+	
+}
+
+nav{
+	background-color: #001a33;
+	
+	box-sizing: border-box;
+}
+.right-layout nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+	height: 100%;
+	box-sizing: border-box;
+}
+.right-layout nav ul li{
+	display: inline;
+	float: left;
+}
+.right-layout nav ul li a{
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+	color: #eee;
+}
+.right-layout nav ul li a:hover{
+	background-color: #4d94ff;
+	color: white;
+}
+.cards
+{
+	padding: 40px;
+	height: 100%;
+	box-sizing: border-box;
+
+}
+.cards a{
+	color: black;
+}
+.cards a:hover{
+	color: black;
+	border: 1px solid black ;
+	transition: 1ms;
+}
+.card{
+	background-color: white;
+	padding: 40px 0px;
+	text-align: center;
+	float: left;
+	width: 31.33%;
+	border-radius: 10px;
+	border: 1px solid red;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+.cards:after{
+	clear: both;
+	content: "";
+	display: table;
+
+}
+.cards .glyphicon{
+	font-size: 60px;
+}
+
