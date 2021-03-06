@@ -28,13 +28,13 @@
 					<!--THIS COLUMN IS FOR DESCRIBING THE SYSTEM-->
 					<div class="col-md-6">
 						<h1 class="systitle">MONEY MOVE</h1>
-						<div class="paragraph1">
+						<div >
 							<P>
 								MONEY MOVE is an online money transfer system that is used in different countries in East Africa community and it colllaborates with Banks or forex bureau that are in those countries.
 							</P>
 						</div>
 
-						<div class="paragraph2">
+						<div >
 							<p>
 								It is an easier online money transfer system ever. the sender or receiver can enter any bank or forex having this service and fills the form (sending or receiving form).all required  informations about the sender including information of the receiver. Both of you (Sender and receiver) must provide a valid document ( <i><b>i.e: National ID, Passport, ATM card, Driving permit, VISA card</b></i>). Money can be  sent or received in Dollar, Euro, even in local currencies of these countries. 
 							</p>
@@ -57,22 +57,7 @@
 			?>
 		</div>
 
-		<script>
-			$(document).ready(function()
-			{
-				
-					$('.systitle').slideDown(1500, function()
-					{
-						$('.paragraph1').fadeIn(1000, function()
-						{
-							$('.paragraph2').fadeIn(1000);
-						});
-					});
-				});
-				
-								
-			
-		</script>
+		
 	</body>
 </html>
 
